@@ -11,13 +11,19 @@ interface CommentProps {
     snippetId: Id<"snippets">;
     content: string;
   };
-  onDelete: () => void;
+  onDelete: (commentId: Id<"snippetComments">) => void;
   isDeleting: boolean;
   currentUserId?: string;
 }
 
-function Comment({comment, onDelete, isDeleting, currentUserId}: CommentProps) {
-  return (<div className="group">
+function Comment({
+  comment,
+  currentUserId,
+  isDeleting,
+  onDelete,
+}: CommentProps) {
+  return (
+    <div className="group">
       <div className="bg-[#0a0a0f] rounded-xl p-6 border border-[#ffffff0a] hover:border-[#ffffff14] transition-all">
         <div className="flex items-start sm:items-center justify-between gap-4 mb-4">
           <div className="flex items-center gap-3">
@@ -25,7 +31,9 @@ function Comment({comment, onDelete, isDeleting, currentUserId}: CommentProps) {
               <UserIcon className="w-4 h-4 text-[#808086]" />
             </div>
             <div className="min-w-0">
-              <span className="block text-[#e1e1e3] font-medium truncate">{comment.userName}</span>
+              <span className="block text-[#e1e1e3] font-medium truncate">
+                {comment.userName}
+              </span>
               <span className="block text-sm text-[#808086]">
                 {new Date(comment._creationTime).toLocaleDateString()}
               </span>
