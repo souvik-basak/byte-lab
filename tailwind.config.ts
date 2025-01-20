@@ -1,3 +1,4 @@
+const plugin = require("tailwind-scrollbar");
 import type { Config } from "tailwindcss";
 
 export default {
@@ -14,5 +15,8 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
+  variants: {
+    scrollbar: ["rounded"], // Add variants for rounded scrollbars if needed
+  },
 } satisfies Config;
