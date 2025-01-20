@@ -7,7 +7,7 @@ const getInitialState = () => {
   // if we are in the server side, we don't have access to the window object
   if (typeof window === "undefined") {
     return {
-      langauge: "javascript",
+      language: "javascript",
       fontSize: 16,
       theme: "vs-dark",
     };
