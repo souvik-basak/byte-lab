@@ -188,7 +188,8 @@ function Privacy() {
       <p className="text-gray-400 mb-4">
         We may update this Privacy Policy from time to time to reflect changes
         in our practices or legal requirements. Any updates will be posted on
-        this page, and the "Effective Date" will be updated accordingly.
+        this page, and the &quot;Effective Date&quot; will be updated
+        accordingly.
       </p>
       <p className="text-gray-400 mb-4">
         We encourage you to review this policy periodically to stay informed
