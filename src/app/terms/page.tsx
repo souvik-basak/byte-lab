@@ -37,9 +37,10 @@ function Terms() {
         Terms and Conditions
       </h1>
       <p className="text-gray-400 mb-6">
-        These Terms and Conditions ("Terms") govern your use of our application
-        and services ("App" or "Service"). By accessing or using the App, you
-        agree to comply with these Terms. Please read them carefully.
+        These Terms and Conditions (&quot;Terms&quot;) govern your use of our
+        application and services (&quot;App&quot; or &quot;Service&quot;). By
+        accessing or using the App, you agree to comply with these Terms. Please
+        read them carefully.
       </p>
 
       <h2 className="text-2xl font-semibold text-gray-200 mb-4">
@@ -123,11 +124,11 @@ function Terms() {
         8. Disclaimers
       </h2>
       <p className="text-gray-400 mb-4">
-        The App is provided "as is" without any warranties or representations,
-        express or implied. We do not guarantee that the App will meet your
-        requirements, be error-free, or operate without interruptions. We
-        disclaim all liability for any loss or damage arising from your use of
-        the App.
+        The App is provided &quot;as is&quot; without any warranties or
+        representations, express or implied. We do not guarantee that the App
+        will meet your requirements, be error-free, or operate without
+        interruptions. We disclaim all liability for any loss or damage arising
+        from your use of the App.
       </p>
 
       <h2 className="text-2xl font-semibold text-gray-200 mb-4">

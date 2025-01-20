@@ -74,7 +74,7 @@ function Support() {
 
       {/* Support Description */}
       <p className="text-gray-400 mb-6">
-        Need help? We're here for you! Explore our resources or contact us for
+        Need help? We are here for you! Explore our resources or contact us for
         assistance with your issues or questions.
       </p>
 
@@ -86,7 +86,7 @@ function Support() {
           </h2>
           <p className="text-gray-400 mb-4">
             Check out our FAQ section for answers to commonly asked questions
-            about our app's features, setup, and usage.
+            about our app&apos;s features, setup, and usage.
           </p>
           <div>
             {faqs.map((faq, index) => (
